@@ -8,7 +8,8 @@ This is a fork of package nl.qbus.sizemeup, the original app does not seem to be
 
 ToDo:
 
-1. Add immersive option
+1. Add immersive option button or menu, handy for end-users who use app to send back screen shots of oddball devices.
+
 
 Research
 ==========
