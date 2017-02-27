@@ -18,7 +18,7 @@ https://github.com/opengapps/opengapps/issues/16
 
 README
 ======
-This is an example app for [my](https://twitter.com/botteaap) "Embracing Fragmentation" talk that Hugo Visser gave at Apps World, [Mobile Down South](http://www.mobiledownsouth.nl/8/sprekers.html#HugoVisser) and earlier at [mdevcon](http://mdevcon.com/2012/01/10/hugo-visser/).
+This is an example app for [Hugo Visser's](https://twitter.com/botteaap) "Embracing Fragmentation" talk that he gave at Apps World 2013, [Mobile Down South](http://www.mobiledownsouth.nl/8/sprekers.html#HugoVisser) and earlier (2012) at [mdevcon](http://mdevcon.com/2012/01/10/hugo-visser/).
 
 The app shows the screen class, dpi, the screen size and the available space or view size  of an Android in both pixels and device independent pixels (dips).
 
