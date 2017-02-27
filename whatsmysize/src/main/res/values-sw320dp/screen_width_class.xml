@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="screen_width_class">Phone</string>    
+    <string name="screen_width_class">Phone (sw320dp)</string>
+    <string name="screen_width_class_test_0">Huawei Y538, Android 5.1.1, Portrait</string>
 </resources>

@@ -10,6 +10,8 @@ ToDo:
 
 1. Add immersive option button or menu, handy for end-users who use app to send back screen shots of oddball devices.
 2. Add some basic Android buttons/checkboxes on main layout XML so that screen shots sent back from users depict general fit.
+3. Show density factor on-screen.
+4. Use the AutoFitTextView for known strings in the system-default font and show the resulting point size?
 
 
 Research
