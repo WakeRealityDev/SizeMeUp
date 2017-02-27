@@ -1,24 +1,51 @@
 apply plugin: 'com.android.application'
 
+// externally saved (not in git source control) signing key
+// gradle.properties needs to have defined line:
+//   WakeReality_androidB.signing=/home/adminsag/app_signing/WakeReality_androidB
+if (project.hasProperty("WakeReality_androidB.signing")
+        && new File(project.property("WakeReality_androidB.signing") + ".gradle").exists()) {
+    apply from: project.property("WakeReality_androidB.signing") + ".gradle";
+}
+
+
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
+        applicationId "com.wakereality.sysutil.sizemeup"
         minSdkVersion 9
-        targetSdkVersion 20
-        versionCode 5
-        versionName "1.0.3"
-    }
+        targetSdkVersion 25
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        versionCode 6
+        versionName "1.0.4"
+
+        signingConfig signingConfigs.WakeReality_androidB
     }
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        experimental {
+            applicationIdSuffix ".experimental"
+            versionNameSuffix "-Experimental"
+            minSdkVersion 9
+            signingConfig signingConfigs.WakeReality_androidB
+        }
+        standard {
+            minSdkVersion 9
+            signingConfig signingConfigs.WakeReality_androidB
         }
     }
 }
@@ -36,5 +63,5 @@ if (ext.has('keyStorePassword')) {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.+'
+    compile 'com.android.support:support-v4:25.2.0'
 }

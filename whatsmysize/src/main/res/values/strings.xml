@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">What\'s my size?</string>
+    <string name="app_name">What\'s my size? 2017</string>
+
     <string name="dpi_qualifier">mdpi</string>
     <string name="view_width">%1$.0fdp (%2$dpx)</string>
     <string name="view_height">%1$.0fdp\n(%2$dpx)</string>

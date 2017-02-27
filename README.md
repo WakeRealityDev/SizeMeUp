@@ -1,6 +1,24 @@
+FORK
+======
+This is a fork of package nl.qbus.sizemeup, the original app does not seem to be receiving published updates.
+
+1. Put on GitHub where developers are more likely to spot it
+2. Update Play Store published resource
+3. Update new values
+
+ToDo:
+
+1. Add immersive option
+
+Research
+==========
+Recent discussion on APK variations:
+https://github.com/opengapps/opengapps/issues/16
+
+
 README
 ======
-This is an example app for [my](https://twitter.com/botteaap) "Embracing Fragmentation" talk that I gave at Apps World, [Mobile Down South](http://www.mobiledownsouth.nl/8/sprekers.html#HugoVisser) and earlier at [mdevcon](http://mdevcon.com/2012/01/10/hugo-visser/).
+This is an example app for [my](https://twitter.com/botteaap) "Embracing Fragmentation" talk that Hugo Visser gave at Apps World, [Mobile Down South](http://www.mobiledownsouth.nl/8/sprekers.html#HugoVisser) and earlier at [mdevcon](http://mdevcon.com/2012/01/10/hugo-visser/).
 
 The app shows the screen class, dpi, the screen size and the available space or view size  of an Android in both pixels and device independent pixels (dips).
 
@@ -17,4 +35,5 @@ This only shows the tip of the iceberg of what is possible; the resource system 
 
 Contact
 -------
-If you want to get in touch just [contact me on twitter](https://twitter.com/botteaap) or [Google+](https://google.com/+hugovisser)
+Original author:
+~~If you want to get in touch just [contact Hugo Visser on twitter](https://twitter.com/botteaap) or [Google+](https://google.com/+hugovisser)~~

@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.android.tools.build:gradle:2.2.3'
     }
 }
 
@@ -13,4 +13,11 @@ allprojects {
     repositories {
         mavenCentral()
     }
+
+    // Check for system environment variable to trigger use of /tmp RAM disk.
+    if (System.env['AS_USE_TMP_BUILDDIR'] != null) {
+        // /tmp is tmpfs, RAM disk
+        buildDir = "/tmp/androidstudio/${rootProject.name}/${project.name}"
+    }
+    println "allprojects buildDir " + buildDir
 }
