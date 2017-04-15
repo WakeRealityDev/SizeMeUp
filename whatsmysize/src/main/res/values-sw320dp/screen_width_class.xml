@@ -2,4 +2,5 @@
 <resources>
     <string name="screen_width_class">Phone (sw320dp)</string>
     <string name="screen_width_class_test_0">Huawei Y538, Android 5.1.1, Portrait</string>
+    <string name="screen_width_class_test_1">LGLS620, Android 4.4.2, Portrait</string>
 </resources>
