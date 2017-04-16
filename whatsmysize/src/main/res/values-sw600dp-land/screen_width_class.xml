@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="screen_width_class">Tablet (sw600dp)</string>
+    <string name="screen_width_class">Tablet (sw600dp-land)</string>
     <string name="screen_width_class_test_0">Amazon Kindle Fire gen5 KFFOWI, Android 5.1, Portrait</string>
     <string name="screen_width_class_test_1">LG-V520, Android 7.0, Portrait</string>
 </resources>
