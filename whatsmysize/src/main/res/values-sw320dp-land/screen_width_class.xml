@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_width_class">Phone (sw320dp-land)</string>
+    <string name="screen_width_class_test_0">Huawei Y538, Android 5.1.1, Landscape</string>
+    <string name="screen_width_class_test_1">LGLS620, Android 4.4.2, Landscape</string>
+</resources>
